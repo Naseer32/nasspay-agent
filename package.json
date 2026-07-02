@@ -1,0 +1,16 @@
+{
+  "name": "escrow-agent",
+  "version": "1.0.0",
+  "description": "A peer-to-peer escrow agent for the Unicity Sphere network.",
+  "type": "module",
+  "main": "agent.js",
+  "scripts": {
+    "start": "node agent.js",
+    "cli": "node cli.js"
+  },
+  "dependencies": {
+    "@unicitylabs/sphere-sdk": "^0.8.0",
+    "ws": "^8.18.0",
+    "dotenv": "^16.4.5"
+  }
+}
